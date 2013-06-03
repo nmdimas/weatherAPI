@@ -10,11 +10,14 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.servlet.ModelAndView;
+import org.xml.sax.SAXException;
 import untitled7.dao.PersonDao;
 import untitled7.dao.UserDAO;
 import untitled7.model.Person;
+import untitled7.service.WeatherService;
 
-import java.net.UnknownHostException;
+import javax.xml.parsers.ParserConfigurationException;
+import java.io.IOException;
 import java.util.List;
 
 @Controller
@@ -25,6 +28,10 @@ public class PersonController {
 
 	@Autowired
 	private PersonDao personDao;
+
+    @Autowired
+    WeatherService weatherService;
+
 
     @Autowired
     private UserDAO userDAO;
@@ -58,7 +65,7 @@ public class PersonController {
 	}
 	
 	@RequestMapping(method=RequestMethod.GET,value="list")
-	public ModelAndView listPeople() throws UnknownHostException {
+	public ModelAndView listPeople() throws IOException, ParserConfigurationException, SAXException {
 		logger.debug("Received request to list persons");
 		ModelAndView mav = new ModelAndView();
 		List<Person> people = personDao.getPeople();
@@ -67,17 +74,15 @@ public class PersonController {
 		mav.setViewName("list");
 
 
+        weatherService.getWeather();
 
-        Person person = new Person();
-        person.setFirstName("Dimas");
-
-
-        mongoTemplate.save(person);
-        userDAO.getUsers();
-
-
-
-
+//
+//        Person person = new Person();
+//        person.setFirstName("Dimas");
+//
+//
+//        mongoTemplate.save(person);
+//        userDAO.getUsers();
 
 		return mav;
 		

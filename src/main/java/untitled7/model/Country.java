@@ -23,9 +23,6 @@ public class Country {
     @Column
     private String name_en;
 
-    @Column
-    private Integer region_id;
-
 
     public Integer getId() {
         return id;
@@ -67,11 +64,4 @@ public class Country {
         this.name_en = name_en;
     }
 
-    public Integer getRegion_id() {
-        return region_id;
-    }
-
-    public void setRegion_id(Integer region_id) {
-        this.region_id = region_id;
-    }
 }

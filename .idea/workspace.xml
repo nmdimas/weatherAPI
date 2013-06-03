@@ -1,16 +1,43 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3b330fce-93a0-4f58-ade8-f7669818ea79" name="Default" comment="" />
+    <list default="true" id="3b330fce-93a0-4f58-ade8-f7669818ea79" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/untitled7/service/weatherCoUaAdapter/CityAdapter.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/untitled7/service/CityAdapterInterface.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/untitled7/service/CityService.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/untitled7/service/CountryAdapterInterface.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/untitled7/service/CountryService.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/untitled7/model/Country.java" afterPath="$PROJECT_DIR$/src/main/java/untitled7/model/Country.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/untitled7/controller/PersonController.java" afterPath="$PROJECT_DIR$/src/main/java/untitled7/controller/PersonController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/untitled7/model/weather/Week.java" afterPath="$PROJECT_DIR$/src/main/java/untitled7/model/weather/Week.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/untitled7.iml" afterPath="$PROJECT_DIR$/untitled7.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
     <ignored path="untitled7.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/db.properties" changelist="3b330fce-93a0-4f58-ade8-f7669818ea79" time="1370004118952" ignored="false" />
     <file path="/db.xml" changelist="3b330fce-93a0-4f58-ade8-f7669818ea79" time="1370006694017" ignored="false" />
-    <file path="/PersonController.java" changelist="3b330fce-93a0-4f58-ade8-f7669818ea79" time="1370012205854" ignored="false" />
+    <file path="/PersonController.java" changelist="3b330fce-93a0-4f58-ade8-f7669818ea79" time="1370249283862" ignored="false" />
     <file path="/Country.java" changelist="3b330fce-93a0-4f58-ade8-f7669818ea79" time="1370010141875" ignored="false" />
     <file path="/City.java" changelist="3b330fce-93a0-4f58-ade8-f7669818ea79" time="1370010403314" ignored="false" />
-    <file path="/Weather.java" changelist="3b330fce-93a0-4f58-ade8-f7669818ea79" time="1370011975775" ignored="false" />
+    <file path="/Weather.java" changelist="3b330fce-93a0-4f58-ade8-f7669818ea79" time="1370249985444" ignored="false" />
     <file path="/OneDay.java" changelist="3b330fce-93a0-4f58-ade8-f7669818ea79" time="1370011180141" ignored="false" />
+    <file path="/WeatherService.java" changelist="3b330fce-93a0-4f58-ade8-f7669818ea79" time="1370273776231" ignored="false" />
+    <file path="/Dummy.txt" changelist="3b330fce-93a0-4f58-ade8-f7669818ea79" time="1370263290636" ignored="false" />
+    <file path="/CityService.java" changelist="3b330fce-93a0-4f58-ade8-f7669818ea79" time="1370258658295" ignored="false" />
+    <file path="/CityAdapter.java" changelist="3b330fce-93a0-4f58-ade8-f7669818ea79" time="1370259355460" ignored="false" />
+    <file path="/CountryService.java" changelist="3b330fce-93a0-4f58-ade8-f7669818ea79" time="1370260478257" ignored="false" />
+    <file path="/fragment.java" changelist="3b330fce-93a0-4f58-ade8-f7669818ea79" time="1370259706424" ignored="false" />
+    <file path="/CountryAdapter.java" changelist="3b330fce-93a0-4f58-ade8-f7669818ea79" time="1370260406830" ignored="false" />
+    <file path="/CountryAdapterInterface.java" changelist="3b330fce-93a0-4f58-ade8-f7669818ea79" time="1370259986346" ignored="false" />
+    <file path="/CityAdapterInterface.java" changelist="3b330fce-93a0-4f58-ade8-f7669818ea79" time="1370259771888" ignored="false" />
+    <file path="$PROJECT_DIR$/../untitled8/src/Factory.java" changelist="3b330fce-93a0-4f58-ade8-f7669818ea79" time="1370263612179" ignored="false" />
+    <file path="$PROJECT_DIR$/../untitled8/src/Currency.java" changelist="3b330fce-93a0-4f58-ade8-f7669818ea79" time="1370263382983" ignored="false" />
+    <file path="$PROJECT_DIR$/../untitled8/src/Rupee.java" changelist="3b330fce-93a0-4f58-ade8-f7669818ea79" time="1370263501025" ignored="false" />
+    <file path="$PROJECT_DIR$/../untitled8/src/SGDDollar.java" changelist="3b330fce-93a0-4f58-ade8-f7669818ea79" time="1370263445136" ignored="false" />
+    <file path="$PROJECT_DIR$/../untitled8/src/USDollar.java" changelist="3b330fce-93a0-4f58-ade8-f7669818ea79" time="1370263488164" ignored="false" />
+    <file path="$PROJECT_DIR$/../untitled8/src/CurrencyFactory.java" changelist="3b330fce-93a0-4f58-ade8-f7669818ea79" time="1370263534587" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,10 +96,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="PersonController.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/untitled7/controller/PersonController.java">
+      <file leaf-file-name="WeatherService.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/untitled7/service/WeatherService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="70" column="12" selection-start="2108" selection-end="2108" vertical-scroll-proportion="0.63619405">
+            <state line="42" column="86" selection-start="1200" selection-end="1201" vertical-scroll-proportion="0.7617896">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -80,63 +107,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Person.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/untitled7/model/Person.java">
+      <file leaf-file-name="CityService.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/untitled7/service/CityService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="34" column="32" selection-start="613" selection-end="613" vertical-scroll-proportion="-16.8">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Country.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/untitled7/model/Country.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="29" column="28" selection-start="402" selection-end="402" vertical-scroll-proportion="-17.24">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="City.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/untitled7/model/City.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="29" column="25" selection-start="408" selection-end="408" vertical-scroll-proportion="4.36">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Weather.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/untitled7/model/weather/Weather.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="20" column="4" selection-start="340" selection-end="340" vertical-scroll-proportion="-12.0">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="OneDay.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/untitled7/model/weather/OneDay.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="0" selection-start="160" selection-end="160" vertical-scroll-proportion="-7.8">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ThreeDay.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/untitled7/model/weather/ThreeDay.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="0" selection-start="61" selection-end="61" vertical-scroll-proportion="-3.0">
+            <state line="4" column="8" selection-start="84" selection-end="84" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -145,27 +119,61 @@
       <file leaf-file-name="Week.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/untitled7/model/weather/Week.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="0" selection-start="104" selection-end="104" vertical-scroll-proportion="-3.6">
+            <state line="14" column="0" selection-start="212" selection-end="212" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="UserDAO.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/untitled7/dao/UserDAO.java">
+      <file leaf-file-name="CityAdapter.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/untitled7/service/weatherCoUaAdapter/CityAdapter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="34" selection-start="355" selection-end="355" vertical-scroll-proportion="-8.4">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state line="45" column="95" selection-start="1736" selection-end="1800" vertical-scroll-proportion="0.0">
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PersonDao.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/untitled7/dao/PersonDao.java">
+      <file leaf-file-name="CountryService.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/untitled7/service/CountryService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="21" column="4" selection-start="464" selection-end="494" vertical-scroll-proportion="-8.4">
+            <state line="17" column="7" selection-start="282" selection-end="282" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CountryAdapter.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/untitled7/service/weatherCoUaAdapter/CountryAdapter.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="21" column="0" selection-start="622" selection-end="622" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CityAdapterInterface.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/untitled7/service/CityAdapterInterface.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="3" column="17" selection-start="46" selection-end="46" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CountryAdapterInterface.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/untitled7/service/CountryAdapterInterface.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="13" column="0" selection-start="289" selection-end="289" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="WeatherAdapterInterface.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/untitled7/service/WeatherAdapterInterface.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="12" column="4" selection-start="227" selection-end="227" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -178,24 +186,33 @@
       <setting name="OPEN_NEW_TAB" value="false" />
     </FindUsagesManager>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitLogSettings">
+    <option name="myDateState">
+      <MyDateState />
+    </option>
+  </component>
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/main/resources/db.properties" />
-        <option value="$PROJECT_DIR$/src/main/java/untitled7/model/User.java" />
-        <option value="$PROJECT_DIR$/src/main/java/untitled7/dao/IUserDAO.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/spring/db.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/untitled7/dao/UserDAO.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/untitled7/model/Country.java" />
-        <option value="$PROJECT_DIR$/src/main/java/untitled7/model/City.java" />
-        <option value="$PROJECT_DIR$/src/main/java/untitled7/model/Weather.java" />
         <option value="$PROJECT_DIR$/src/main/java/untitled7/model/ThreeDay.java" />
-        <option value="$PROJECT_DIR$/src/main/java/untitled7/model/weather/Week.java" />
         <option value="$PROJECT_DIR$/src/main/java/untitled7/model/weather/OneDay.java" />
         <option value="$PROJECT_DIR$/src/main/java/untitled7/model/weather/Weather.java" />
-        <option value="$PROJECT_DIR$/src/main/java/untitled7/controller/PersonController.java" />
         <option value="$PROJECT_DIR$/src/main/java/untitled7/model/Person.java" />
+        <option value="$PROJECT_DIR$/src/main/java/untitled7/service/Weather.java" />
+        <option value="$PROJECT_DIR$/src/main/java/untitled7/controller/PersonController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/untitled7/service/WeatherService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/untitled7/service/CityService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/untitled7/model/weather/Week.java" />
+        <option value="$PROJECT_DIR$/src/main/java/untitled7/service/weatherCoUaAdapter/CityAdapter.java" />
+        <option value="$PROJECT_DIR$/src/main/java/untitled7/service/CityAdapterInterface.java" />
+        <option value="$PROJECT_DIR$/src/main/java/untitled7/service/WeatherAdapterInterface.java" />
+        <option value="$PROJECT_DIR$/src/main/java/untitled7/service/CountryAdapterInterface.java" />
+        <option value="$PROJECT_DIR$/src/main/java/untitled7/model/Country.java" />
+        <option value="$PROJECT_DIR$/src/main/java/untitled7/service/weatherCoUaAdapter/CountryAdapter.java" />
+        <option value="$PROJECT_DIR$/src/main/java/untitled7/service/CountryService.java" />
       </list>
     </option>
   </component>
@@ -253,10 +270,9 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-2" />
-    <option name="y" value="-3" />
-    <option name="width" value="1924" />
-    <option name="height" value="1052" />
+    <option name="x" value="1278" />
+    <option name="width" value="1920" />
+    <option name="height" value="1045" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -304,7 +320,7 @@
       </profile-state>
     </entry>
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
     <OptionsSetting value="true" id="Remove" />
     <OptionsSetting value="true" id="Checkout" />
@@ -313,11 +329,11 @@
     <OptionsSetting value="true" id="Edit" />
     <OptionsSetting value="true" id="Undo Check Out" />
     <OptionsSetting value="true" id="Get Latest Version" />
-    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="2" id="Add" />
     <ConfirmationsSetting value="0" id="Remove" />
   </component>
   <component name="ProjectReloadState">
-    <option name="STATE" value="2" />
+    <option name="STATE" value="0" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1" splitterProportion="0.5">
@@ -332,7 +348,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -470,6 +485,40 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="WEB-INF" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="spring" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="untitled7" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="untitled7" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="webapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="resources" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -496,7 +545,63 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="webapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="META-INF" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="untitled7" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="untitled7" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="untitled7" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="untitled7" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="untitled7" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="service" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -616,59 +721,68 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="dao" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="untitled7" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="untitled7" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="untitled7" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="controller" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="GoToFile.includeJavaFiles" value="false" />
-    <property name="GoToClass.toSaveIncludeLibraries" value="false" />
+    <property name="OverrideImplement.combined" value="false" />
     <property name="options.splitter.main.proportions" value="0.3" />
-    <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="options.lastSelected" value="Errors" />
+    <property name="options.lastSelected" value="project.propVCSSupport.Mappings" />
     <property name="MemberChooser.sorted" value="false" />
+    <property name="recentsLimit" value="5" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/pom.xml" />
+    <property name="MemberChooser.copyJavadoc" value="false" />
+    <property name="GoToClass.toSaveIncludeLibraries" value="false" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="MemberChooser.showClasses" value="true" />
     <property name="GoToClass.includeLibraries" value="false" />
+    <property name="dynamic.classpath" value="false" />
     <property name="options.searchVisible" value="true" />
     <property name="options.splitter.details.proportions" value="0.2" />
-    <property name="dynamic.classpath" value="false" />
-    <property name="MemberChooser.copyJavadoc" value="false" />
   </component>
-  <component name="RunManager">
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="untitled7.service" />
+      <recent name="untitled7.service.weatherCoUaAdapter" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Maven.untitled7 [org.mortbay.jetty:maven-jetty-plugin:6.1.25:run]">
+    <configuration default="false" name="untitled7 [org.mortbay.jetty:maven-jetty-plugin:6.1.25:run]" type="MavenRunConfiguration" factoryName="Maven" temporary="true">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="org.mortbay.jetty:maven-jetty-plugin:6.1.25:run" />
+              </list>
+            </option>
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="workingDirPath" value="$PROJECT_DIR$" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="" />
+        <option name="TRANSPORT" value="0" />
+        <option name="LOCAL" value="true" />
+      </RunnerSettings>
+      <ConfigurationWrapper RunnerId="Debug" />
+      <method />
+    </configuration>
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
       <module name="" />
       <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m" />
@@ -781,7 +895,14 @@
       <patterns />
       <method />
     </configuration>
-    <list size="0" />
+    <list size="1">
+      <item index="0" class="java.lang.String" itemvalue="Maven.untitled7 [org.mortbay.jetty:maven-jetty-plugin:6.1.25:run]" />
+    </list>
+    <recent_temporary>
+      <list size="1">
+        <item index="0" class="java.lang.String" itemvalue="Maven.untitled7 [org.mortbay.jetty:maven-jetty-plugin:6.1.25:run]" />
+      </list>
+    </recent_temporary>
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
       <Host>localhost</Host>
       <Port>5050</Port>
@@ -815,29 +936,29 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-2" y="-3" width="1924" height="1052" extended-state="6" />
+    <frame x="1278" y="0" width="1920" height="1045" extended-state="5" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Persistence" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Persistence" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39955848" sideWeight="0.49786553" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3289183" sideWeight="0.49839914" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39955848" sideWeight="0.49839914" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32924226" sideWeight="0.67108166" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21657754" sideWeight="0.6004415" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24919957" sideWeight="0.67108166" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3289183" sideWeight="0.49786553" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.16363636" sideWeight="0.6004415" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3289183" sideWeight="0.49786553" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -913,125 +1034,105 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/untitled7/model/User.java">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/spring/root-context.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="29" selection-start="346" selection-end="346" vertical-scroll-proportion="0.0">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/spring/app/controllers.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/untitled7/controller/PersonController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="76" column="36" selection-start="2337" selection-end="2337" vertical-scroll-proportion="-20.76">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/spring/root-context.xml">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/3.1.1.RELEASE/spring-web-3.1.1.RELEASE.jar!/org/springframework/web/method/support/InvocableHandlerMethod.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="23" selection-start="544" selection-end="544" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="31" column="29" selection-start="2284" selection-end="2284" vertical-scroll-proportion="0.76034856" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/spring/db.xml">
+    <entry file="jar:///usr/lib/jvm/jdk1.6.0_45/src.zip!/org/w3c/dom/Element.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="25" selection-start="1313" selection-end="1313" vertical-scroll-proportion="-12.0">
-          <folding>
-            <element signature="e#1962#1977#0" expanded="false" />
-            <element signature="e#2156#2170#0" expanded="false" />
-            <element signature="e#2203#2214#0" expanded="false" />
-            <element signature="e#2252#2268#0" expanded="false" />
-            <element signature="e#2306#2322#0" expanded="false" />
-          </folding>
-        </state>
+        <state line="31" column="17" selection-start="1737" selection-end="1737" vertical-scroll-proportion="0.65082645" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/untitled7/dao/IUserDAO.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/untitled7/service/WeatherAdapterInterface.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="1" selection-start="99" selection-end="99" vertical-scroll-proportion="-4.2">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="29" selection-start="574" selection-end="574" vertical-scroll-proportion="-5.4">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/untitled7/dao/PersonDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="4" selection-start="464" selection-end="494" vertical-scroll-proportion="-8.4">
+        <state line="12" column="4" selection-start="227" selection-end="227" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/untitled7/model/Country.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="28" selection-start="402" selection-end="402" vertical-scroll-proportion="-17.24">
+        <state line="65" column="0" selection-start="987" selection-end="987" vertical-scroll-proportion="0.7457627">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/untitled7/model/City.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/untitled7/service/weatherCoUaAdapter/CountryAdapter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="25" selection-start="408" selection-end="408" vertical-scroll-proportion="4.36">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/untitled7/model/weather/ThreeDay.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="0" selection-start="61" selection-end="61" vertical-scroll-proportion="-3.0">
+        <state line="21" column="0" selection-start="622" selection-end="622" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/untitled7/model/weather/OneDay.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/untitled7/service/CountryAdapterInterface.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="0" selection-start="160" selection-end="160" vertical-scroll-proportion="-7.8">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state line="13" column="0" selection-start="289" selection-end="289" vertical-scroll-proportion="0.0">
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/untitled7/model/weather/Weather.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/untitled7/service/CityAdapterInterface.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="4" selection-start="340" selection-end="340" vertical-scroll-proportion="-12.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state line="3" column="17" selection-start="46" selection-end="46" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/untitled7/service/CountryService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="7" selection-start="282" selection-end="282" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/untitled7/service/weatherCoUaAdapter/CityAdapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="45" column="95" selection-start="1736" selection-end="1800" vertical-scroll-proportion="0.0">
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/untitled7/model/weather/Week.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="0" selection-start="104" selection-end="104" vertical-scroll-proportion="-3.6">
+        <state line="14" column="0" selection-start="212" selection-end="212" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/untitled7/dao/UserDAO.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/untitled7/service/CityService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="34" selection-start="355" selection-end="355" vertical-scroll-proportion="-8.4">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state line="4" column="8" selection-start="84" selection-end="84" vertical-scroll-proportion="0.0">
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/untitled7/model/Person.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/untitled7/service/WeatherService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="34" column="32" selection-start="613" selection-end="613" vertical-scroll-proportion="-16.8">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/untitled7/controller/PersonController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="70" column="12" selection-start="2108" selection-end="2108" vertical-scroll-proportion="0.63619405">
+        <state line="42" column="86" selection-start="1200" selection-end="1201" vertical-scroll-proportion="0.7617896">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
