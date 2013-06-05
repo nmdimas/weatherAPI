@@ -2,16 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3b330fce-93a0-4f58-ade8-f7669818ea79" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/untitled7/service/weatherCoUaAdapter/CityAdapter.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/untitled7/service/CityAdapterInterface.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/untitled7/service/CityService.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/untitled7/service/CountryAdapterInterface.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/untitled7/service/CountryService.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/untitled7/model/Country.java" afterPath="$PROJECT_DIR$/src/main/java/untitled7/model/Country.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/untitled7/controller/PersonController.java" afterPath="$PROJECT_DIR$/src/main/java/untitled7/controller/PersonController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/untitled7/model/weather/Week.java" afterPath="$PROJECT_DIR$/src/main/java/untitled7/model/weather/Week.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/untitled7.iml" afterPath="$PROJECT_DIR$/untitled7.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="untitled7.iws" />
@@ -24,7 +14,7 @@
     <file path="/Weather.java" changelist="3b330fce-93a0-4f58-ade8-f7669818ea79" time="1370249985444" ignored="false" />
     <file path="/OneDay.java" changelist="3b330fce-93a0-4f58-ade8-f7669818ea79" time="1370011180141" ignored="false" />
     <file path="/WeatherService.java" changelist="3b330fce-93a0-4f58-ade8-f7669818ea79" time="1370273776231" ignored="false" />
-    <file path="/Dummy.txt" changelist="3b330fce-93a0-4f58-ade8-f7669818ea79" time="1370263290636" ignored="false" />
+    <file path="/Dummy.txt" changelist="3b330fce-93a0-4f58-ade8-f7669818ea79" time="1370417701594" ignored="false" />
     <file path="/CityService.java" changelist="3b330fce-93a0-4f58-ade8-f7669818ea79" time="1370258658295" ignored="false" />
     <file path="/CityAdapter.java" changelist="3b330fce-93a0-4f58-ade8-f7669818ea79" time="1370259355460" ignored="false" />
     <file path="/CountryService.java" changelist="3b330fce-93a0-4f58-ade8-f7669818ea79" time="1370260478257" ignored="false" />
@@ -52,6 +42,7 @@
     <disable_hints />
   </component>
   <component name="DebuggerManager">
+    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true">
       <breakpoint>
         <option name="NOTIFY_CAUGHT" value="true" />
@@ -86,7 +77,6 @@
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
     </breakpoint_any>
-    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_rules />
     <ui_properties />
   </component>
@@ -99,7 +89,7 @@
       <file leaf-file-name="WeatherService.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/untitled7/service/WeatherService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="42" column="86" selection-start="1200" selection-end="1201" vertical-scroll-proportion="0.7617896">
+            <state line="42" column="86" selection-start="1200" selection-end="1201" vertical-scroll-proportion="0.7599518">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -348,7 +338,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -728,6 +717,7 @@
         </subPane>
       </pane>
       <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -936,8 +926,8 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1278" y="0" width="1920" height="1045" extended-state="5" />
-    <editor active="true" />
+    <frame x="1278" y="0" width="1920" height="1045" extended-state="0" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -957,7 +947,7 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21657754" sideWeight="0.6004415" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.16363636" sideWeight="0.6004415" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.16363636" sideWeight="0.6004415" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3289183" sideWeight="0.49786553" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -1043,18 +1033,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/spring/app/controllers.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/untitled7/controller/PersonController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="76" column="36" selection-start="2337" selection-end="2337" vertical-scroll-proportion="-20.76">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
+        <state line="76" column="36" selection-start="2337" selection-end="2337" vertical-scroll-proportion="-20.76" />
       </provider>
     </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/3.1.1.RELEASE/spring-web-3.1.1.RELEASE.jar!/org/springframework/web/method/support/InvocableHandlerMethod.class">
@@ -1076,9 +1060,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/untitled7/model/Country.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="65" column="0" selection-start="987" selection-end="987" vertical-scroll-proportion="0.7457627">
-          <folding />
-        </state>
+        <state line="65" column="0" selection-start="987" selection-end="987" vertical-scroll-proportion="0.7457627" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/untitled7/service/weatherCoUaAdapter/CountryAdapter.java">
@@ -1132,7 +1114,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/untitled7/service/WeatherService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="42" column="86" selection-start="1200" selection-end="1201" vertical-scroll-proportion="0.7617896">
+        <state line="42" column="86" selection-start="1200" selection-end="1201" vertical-scroll-proportion="0.7599518">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
