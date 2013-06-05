@@ -13,8 +13,10 @@ import org.springframework.web.servlet.ModelAndView;
 import org.xml.sax.SAXException;
 import untitled7.dao.PersonDao;
 import untitled7.dao.UserDAO;
+import untitled7.model.City;
+import untitled7.model.Country;
 import untitled7.model.Person;
-import untitled7.service.WeatherService;
+import untitled7.service.AdapterService;
 
 import javax.xml.parsers.ParserConfigurationException;
 import java.io.IOException;
@@ -30,11 +32,11 @@ public class PersonController {
 	private PersonDao personDao;
 
     @Autowired
-    WeatherService weatherService;
-
+    AdapterService adapterService;
 
     @Autowired
     private UserDAO userDAO;
+
     @Autowired
     MongoTemplate mongoTemplate;
 
@@ -68,13 +70,32 @@ public class PersonController {
 	public ModelAndView listPeople() throws IOException, ParserConfigurationException, SAXException {
 		logger.debug("Received request to list persons");
 		ModelAndView mav = new ModelAndView();
-		List<Person> people = personDao.getPeople();
-		logger.debug("Person Listing count = "+people.size());
-		mav.addObject("people",people);
 		mav.setViewName("list");
 
+        adapterService.factoryAdapter("WeatherCoUa");
 
-        weatherService.getWeather();
+        List<Country> countryList = adapterService.getCounties();
+
+
+
+//        List<City> cities = adapterService.getCities(802);
+//        for (City city: cities){
+//            System.out.println(city.getName());
+//        }
+
+//
+//        Person person = new Person();
+//        person.setFirstName("Dimas");
+//
+//
+//        mongoTemplate.save(person);
+//        userDAO.getUsers();
+		return mav;
+	}
+
+    @RequestMapping(method=RequestMethod.GET,value="writetest")
+    public String writetest() throws IOException, ParserConfigurationException, SAXException {
+
 
 //
 //        Person person = new Person();
@@ -84,8 +105,29 @@ public class PersonController {
 //        mongoTemplate.save(person);
 //        userDAO.getUsers();
 
-		return mav;
-		
-	}
+        return "redirect:list";
+    }
+
+
+    @RequestMapping(method=RequestMethod.GET,value="country")
+    public ModelAndView country() throws IOException, ParserConfigurationException, SAXException {
+
+        ModelAndView mav = new ModelAndView();
+
+
+        Country country = adapterService.getCountry(804);
+
+        List<City> cities = adapterService.getCities(country);
+
+//
+//        Person person = new Person();
+//        person.setFirstName("Dimas");
+//
+//
+//        mongoTemplate.save(person);
+//        userDAO.getUsers();
+
+        return mav;
+    }
 
 }

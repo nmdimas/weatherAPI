@@ -1,6 +1,8 @@
 package untitled7.model;
 
 
+import untitled7.enumclass.AdapterEnum;
+
 import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.Id;
@@ -12,7 +14,6 @@ public class City {
     @Id
     private Long id;
 
-
     @Column
     private String name;
 
@@ -22,6 +23,8 @@ public class City {
     @Column
     private String region;
 
+    @Column()
+    private AdapterEnum nameAdapter;
 
     @OneToOne
     private Country country;
