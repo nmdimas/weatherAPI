@@ -1,0 +1,18 @@
+package untitled7.service;
+
+import org.xml.sax.SAXException;
+import untitled7.model.City;
+import untitled7.model.Country;
+import untitled7.model.weather.Weather;
+
+import javax.xml.parsers.ParserConfigurationException;
+import java.io.IOException;
+import java.util.List;
+
+public interface Adapter {
+
+    public Weather getWeather(Integer idCity);
+    public List<City> getCities(Integer idCountry) throws IOException, SAXException, ParserConfigurationException;
+    public List<Country> getCountry() throws IOException, SAXException, ParserConfigurationException;
+
+}

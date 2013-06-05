@@ -13,8 +13,10 @@ import org.springframework.web.servlet.ModelAndView;
 import org.xml.sax.SAXException;
 import untitled7.dao.PersonDao;
 import untitled7.dao.UserDAO;
+import untitled7.model.City;
 import untitled7.model.Person;
-import untitled7.service.WeatherService;
+import untitled7.service.AdapterService;
+
 
 import javax.xml.parsers.ParserConfigurationException;
 import java.io.IOException;
@@ -30,7 +32,7 @@ public class PersonController {
 	private PersonDao personDao;
 
     @Autowired
-    WeatherService weatherService;
+    AdapterService adapterService;
 
 
     @Autowired
@@ -74,7 +76,11 @@ public class PersonController {
 		mav.setViewName("list");
 
 
-        weatherService.getWeather();
+        List<City> cities = adapterService.getCities(802);
+        for (City city: cities){
+            System.out.println(city.getName());
+        }
+
 
 //
 //        Person person = new Person();
