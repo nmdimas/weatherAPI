@@ -6,6 +6,7 @@ import untitled7.enumclass.AdapterEnum;
 import javax.persistence.*;
 
 @Entity
+@Table(name = "country", uniqueConstraints={@UniqueConstraint(name="idCountryAdapter", columnNames={"idCountryAdapter", "name_en"})})
 public class Country {
 
     @Id
@@ -13,7 +14,7 @@ public class Country {
     private Integer id;
 
     @Column
-    private Integer idCityFromAdapter;
+    private Integer idCountryAdapter;
 
     @Column
     private String iso2;
@@ -24,6 +25,14 @@ public class Country {
     @Column
     private String name;
 
+    public Integer getIdCountryAdapter() {
+        return idCountryAdapter;
+    }
+
+    public void setIdCountryAdapter(Integer idCountryAdapter) {
+        this.idCountryAdapter = idCountryAdapter;
+    }
+
     @Column
     private String name_en;
 
@@ -32,13 +41,6 @@ public class Country {
     private AdapterEnum nameAdapter;
 
 
-    public Integer getIdCityFromAdapter() {
-        return idCityFromAdapter;
-    }
-
-    public void setIdCityFromAdapter(Integer idCityFromAdapter) {
-        this.idCityFromAdapter = idCityFromAdapter;
-    }
 
     public AdapterEnum getNameAdapter() {
         return nameAdapter;

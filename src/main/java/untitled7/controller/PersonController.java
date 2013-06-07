@@ -16,6 +16,7 @@ import untitled7.dao.UserDAO;
 import untitled7.model.City;
 import untitled7.model.Country;
 import untitled7.model.Person;
+import untitled7.model.weather.Weather;
 import untitled7.service.AdapterService;
 
 import javax.xml.parsers.ParserConfigurationException;
@@ -114,11 +115,36 @@ public class PersonController {
 
         ModelAndView mav = new ModelAndView();
 
-
+        adapterService.factoryAdapter("WeatherCoUa");
         Country country = adapterService.getCountry(804);
-
         List<City> cities = adapterService.getCities(country);
+        City city = adapterService.findCity(23,804);
+        Weather weather = adapterService.getWeather(city);
 
+        mav.setViewName("country");
+
+//
+//        Person person = new Person();
+//        person.setFirstName("Dimas");
+//
+//
+//        mongoTemplate.save(person);
+//        userDAO.getUsers();
+
+        return mav;
+    }
+    @RequestMapping(method=RequestMethod.GET,value="weather")
+    public ModelAndView viewWeatherCity(@RequestParam(value="id",required=false) Integer id) throws IOException, ParserConfigurationException, SAXException {
+
+        ModelAndView mav = new ModelAndView();
+
+
+        City city = adapterService.findCity(id,804);
+        Weather weather = adapterService.getWeather(city);
+
+        mav.setViewName("country");
+        mav.addObject("weather",weather);
+        mav.addObject("test",id);
 //
 //        Person person = new Person();
 //        person.setFirstName("Dimas");

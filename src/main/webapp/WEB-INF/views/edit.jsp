@@ -7,7 +7,7 @@
 </head>
 <body>
 <h1>
-	Editing Person ${person.id} - ${person.firstName}  ${person.lastName} 
+	Editing Person ${person.id} - ${person.firstName}  ${person.lastName}
 </h1>
 <form:form commandName="person" style="padding:8px">
     ID - ${person.id}<br/>

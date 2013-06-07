@@ -55,9 +55,11 @@
         </property>
         <property name="jpaProperties">
                 <props>
-                <prop key="hibernate.dialect">org.hibernate.dialect.MySQLDialect</prop>
-                <prop key="hibernate.show_sql">true</prop>
-                <prop key="hibernate.hbm2ddl.auto">create</prop>
+                    <prop key="hibernate.dialect">org.hibernate.dialect.MySQLDialect</prop>
+                    <prop key="hibernate.show_sql">true</prop>
+                    <prop key="hibernate.hbm2ddl.auto">update</prop>
+                    <prop key="hibernate.connection.CharSet">utf8</prop>
+                    <prop key="hibernate.connection.characterEncoding">utf8</prop>
                 </props>
         </property>
     </bean>
@@ -66,8 +68,7 @@
 	<bean id="dataSource" class="org.apache.commons.dbcp.BasicDataSource"
 		destroy-method="close">
 		<property name="driverClassName" value="com.mysql.jdbc.Driver" />
-		<property name="url" value="jdbc:mysql://localhost:3306/java" />
-
+		<property name="url" value="jdbc:mysql://localhost:3306/java?useUnicode=true&amp;connectionCollation=utf8_general_ci&amp;characterSetResults=utf8&amp;characterEncoding=utf8" />
 		<property name="username" value="root" />
 		<property name="password" value="1991dimas" />
 	</bean>

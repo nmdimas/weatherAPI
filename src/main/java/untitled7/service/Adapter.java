@@ -10,10 +10,11 @@ import javax.xml.parsers.ParserConfigurationException;
 import java.io.IOException;
 import java.util.List;
 
+
 public interface Adapter {
 
     public AdapterEnum getNameAdapter();
-    public Weather getWeather(Integer idCity);
+    public Weather getWeather(Integer idCity) throws IOException, SAXException, ParserConfigurationException;
     public List<City> getCities(Country country) throws IOException, SAXException, ParserConfigurationException;
     public List<Country> getCountry() throws IOException, SAXException, ParserConfigurationException;
 

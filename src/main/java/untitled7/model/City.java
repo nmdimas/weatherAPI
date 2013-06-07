@@ -3,16 +3,18 @@ package untitled7.model;
 
 import untitled7.enumclass.AdapterEnum;
 
-import javax.persistence.Column;
-import javax.persistence.Entity;
-import javax.persistence.Id;
-import javax.persistence.OneToOne;
+import javax.persistence.*;
 
 @Entity
+@Table(name = "city", uniqueConstraints={@UniqueConstraint(name="adpterIdCity", columnNames={"adpterIdCity", "name_en"})})
 public class City {
 
     @Id
-    private Long id;
+    @GeneratedValue(strategy = GenerationType.AUTO)
+    private Integer id;
+
+    @Column
+    private Integer adpterIdCity;
 
     @Column
     private String name;
@@ -23,19 +25,32 @@ public class City {
     @Column
     private String region;
 
+    @Enumerated(EnumType.STRING)
     @Column()
     private AdapterEnum nameAdapter;
 
     @OneToOne
     private Country country;
 
-
-    public Long getId() {
-        return id;
+    public Integer getAdpterIdCity() {
+        return adpterIdCity;
     }
 
-    public void setId(Long id) {
-        this.id = id;
+    public void setAdpterIdCity(Integer adpterIdCity) {
+        this.adpterIdCity = adpterIdCity;
+    }
+
+    public AdapterEnum getNameAdapter() {
+        return nameAdapter;
+    }
+
+    public void setNameAdapter(AdapterEnum nameAdapter) {
+        this.nameAdapter = nameAdapter;
+    }
+
+
+    public Integer getId() {
+        return id;
     }
 
     public String getName() {
